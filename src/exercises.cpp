@@ -14,21 +14,21 @@ void exercise_1(string s1) {
 }
 
 void exercise_2(string s1) {
-
   int i = 0; 
-	while (i < s1.size()){
-	    char iteracion = s1[i];
-	    if(iteracion == '1'){
-	          cout<<"Om-nom-nom :P"<<endl;
-	    }else if (iteracion == '0'){
-	          cout<<"Sin pastel :(";
-	          break;
-	    }else {
-	          cout<<"Ingreso valores no validos, solo ingrese 1 o 0"<<endl;
-	          break;
-	      } ++i;
-	  }
-  
+
+	    while (i < s1.size()){
+	        char iteracion = s1[i];
+	        if(iteracion == '1'){
+	            cout<<"Om-nom-nom :P"<<endl;
+	        }else if (iteracion == '0'){
+	            cout<<"Sin pastel :(";
+	            break;
+	        }else {
+	            cout<<"Ingreso valores no validos, solo ingrese 1 o 0"<<endl;
+	            break;
+	        } ++i;
+	    }
+
 }
 
 void exercise_3(string s1) {
