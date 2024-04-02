@@ -22,15 +22,12 @@ void exercise_3(string s1) {
   while (i < s1.size()){
     char iteracion = s1[i];
 	  if(iteracion == '1'){
-	    cout<<"Om-nom-nom :P"<<endl;
-	      }else if (iteracion == '0'){
-	            cout<<"Sin pastel :(";
-	            break;
-	      }else {
-	            cout<<"Ingreso valores no validos, solo ingrese 1 o 0"<<endl;
-	            break;
-	      } ++i;
-	    }
+	        cout<<"Om-nom-nom :P"<<endl;
+      }else if (iteracion == '0'){
+	        cout<<"No cake :(";
+	        break;
+	    } ++i;
+	}
 }
 
 void exercise_4(int n) {
