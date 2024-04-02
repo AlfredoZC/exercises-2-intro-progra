@@ -1,6 +1,7 @@
 
 #include <cmath>
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -13,11 +14,25 @@ void exercise_1(string s1) {
 }
 
 void exercise_2(string s1) {
-  // TODO: YOUR CODE HERE
+
+  int i = 0; 
+	  while (i < s1.size()){
+	      char iteracion = s1[i];
+	      if(iteracion == '1'){
+	            cout<<"Om-nom-nom :P"<<endl;
+	      }else if (iteracion == '0'){
+	            cout<<"Sin pastel :(";
+	            break;
+	      }else {
+	            cout<<"Ingreso valores no validos, solo ingrese 1 o 0"<<endl;
+	            break;
+	      } ++i;
+	  }
+  
 }
 
 void exercise_3(string s1) {
-  // TODO: YOUR CODE HERE
+  /
 }
 
 void exercise_4(int n) {
