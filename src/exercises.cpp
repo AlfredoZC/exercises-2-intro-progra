@@ -29,7 +29,7 @@ void exercise_3(string s1) {
     	            if(iteracion == '1'){
     	            cout<<"Om-nom-nom :P"<<endl;
     	            }else if (iteracion == '0'){
-    	                cout<<"Sin pastel :("<<endl;
+    	                cout<<"No cake :("<<endl;
     	                break;
     	            }else {
     	                cout<<"Ingreso valores no validos, solo ingrese 1 o 0"<<endl;
