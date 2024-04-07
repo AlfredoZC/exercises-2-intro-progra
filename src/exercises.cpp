@@ -167,7 +167,23 @@ void exercise_8(string s) {
 }
 
 void exercise_9(string s) {
-  // TODO: YOUR CODE HERE
+	  int fwords; 
+	   
+	  for(int i = 0 ; i <= s.size(); ++i){
+	     if(s[i] =='f' || s[i]== 'F'){
+	          fwords++;
+	          if (fwords == 2){
+	           cout<<i<<endl;
+	          }
+	       }
+	
+	   } 
+	   
+	   if (fwords == 1){
+	       cout<<"-1"<<endl; 
+	   }else if (fwords == 0){ 
+	       cout <<"-2"<<endl;
+	}
 }
 
 int exercise_10(int a, int b) {
