@@ -223,9 +223,9 @@ string exercise_14(int n) {
   string palindromo; 
   int size = s1.size();
 
-  for ( int i = s1.size -1  ; i >= 0  ; --i){
+  for ( int i = s1.size() -1  ; i >= 0  ; --i){
     palindromo += s1[i];
-    
+
   } if(palindromo == s1 ){
     return "Es palindrome";
 
