@@ -167,8 +167,9 @@ void exercise_8(string s) {
 }
 
 void exercise_9(string s) {
+
+	int fwords = 0;
   
-	  int fwords; 
 	  for(int i = 0 ; i <= s.size(); ++i){
 	     if(s[i] =='f' || s[i]== 'F'){
 	          fwords++;
