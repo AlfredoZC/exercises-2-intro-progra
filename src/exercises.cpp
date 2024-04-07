@@ -218,8 +218,22 @@ long exercise_13(int n, int k) {
 }
 
 string exercise_14(int n) {
-  // TODO: YOUR CODE HERE
-  return "";
+
+  string s1 = to_string(n);
+  string palindromo; 
+  int size = s1.size();
+
+  for ( int i = s1.size -1  ; i >= 0  ; --i){
+    palindromo += s1[i];
+    
+  } if(palindromo == s1 ){
+    return "Es palindrome";
+
+  } else{
+
+    return "No es palindrome";
+  }
+  
 }
 
 void exercise_15(int decimal) {
