@@ -169,7 +169,7 @@ void exercise_8(string s) {
 void exercise_9(string s) {
 
 	int fwords = 0;
-  
+
 	  for(int i = 0 ; i <= s.size(); ++i){
 	     if(s[i] =='f' || s[i]== 'F'){
 	          fwords++;
@@ -188,8 +188,14 @@ void exercise_9(string s) {
 }
 
 int exercise_10(int a, int b) {
-  // TODO: YOUR CODE HERE
-  return 0;
+    while(b != 0){
+	      int save_number = b;
+	      b = a % b;
+	      a = save_number ;
+	     
+	   }
+	   cout <<a<<endl;    
+	return a;
 }
 
 void exercise_11() {
