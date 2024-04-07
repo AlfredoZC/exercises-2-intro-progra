@@ -117,7 +117,21 @@ int exercise_6(int n) {
 }
 
 void exercise_7(int n) {
-  // TODO: YOUR CODE HERE
+
+	  double result = 0.0;
+	  int signo = 1; 
+    if ( n > 0){
+	    for( int i = 1; i <=n ; ++i){
+
+	        result += signo * (1.0 / i);
+	        signo *= -1;
+	      
+	    } cout <<result;
+
+    }else{
+      return 0;
+    }
+    
 }
 
 void exercise_8(string s) {
