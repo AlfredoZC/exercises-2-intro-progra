@@ -87,11 +87,11 @@ void exercise_5(int n, int k) {
         
         int salto = (j + n - 1) % 7;
         
-        if (salto == 0 || j == k) {
+        if (salto ==  0) {
             cout << endl;
-        } else if(j==k){
-			cout<<" "<<endl;
-		}else {
+          } else if(j == k){
+			      cout<<" "<<endl;
+		      }else {
             cout << " "; 
         }
     }
