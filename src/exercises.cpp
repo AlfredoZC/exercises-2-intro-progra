@@ -129,9 +129,10 @@ void exercise_7(int n) {
 	    } cout <<result;
 
     }else{
-      return 0;
+      
+      return ;
     }
-    
+
 }
 
 void exercise_8(string s) {
