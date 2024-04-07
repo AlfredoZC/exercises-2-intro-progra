@@ -120,7 +120,7 @@ void exercise_7(int n) {
 
 	  double result = 0.0;
 	  int signo = 1; 
-    if ( n > 0){
+    if ( n >= 0){
 	    for( int i = 1; i <=n ; ++i){
 
 	        result += signo * (1.0 / i);
@@ -129,7 +129,6 @@ void exercise_7(int n) {
 	    } cout <<result<<endl;
 
     }else{
-
       return ;
     }
 
