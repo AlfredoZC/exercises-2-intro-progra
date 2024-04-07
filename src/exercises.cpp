@@ -76,24 +76,24 @@ void exercise_4(int n) {
 
 void exercise_5(int n, int k) {
 
-      for( int i = 1 ; i<n; ++i){
+    for (int i = 1; i < n; ++i) {
+        cout << "   ";
+    }
+    for (int j = 1; j <= k; ++j) {
+        if (j < 10) {
+            cout << " ";
+        }
+        cout << j;
         
-		 cout<<"   ";
-		      
-		} for (int j=1 ; j<=k ; ++j){
-		  if (j < 10){
-		      cout<<" ";
-		  } 
-		    cout<<j<<" ";
-		    
-		    int salto = (j + n -1) % 7;
-		    
-		    if (salto == 0 || j == k){
-		        
-		    cout<<endl;
-		  }
-		  
-	 }
+        int salto = (j + n - 1) % 7;
+        
+        if (salto == 0 || j == k) {
+            cout << endl;
+        } else {
+            cout << " "; 
+        }
+    }
+	
 }
 
 int exercise_6(int n) {
