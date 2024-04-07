@@ -241,7 +241,7 @@ void exercise_15(int decimal) {
 	int result;
 	string str;
   string reverse; //este revierte a la string str que por el bucle while nos habia soltado 0101, entonces necesitabamos revertirla 
-	 if(decima == 0){
+	 if(decimal == 0){
     cout<<"0"<<endl;
    }else {
 
