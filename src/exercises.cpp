@@ -89,11 +89,13 @@ void exercise_5(int n, int k) {
         
         if (salto == 0 || j == k) {
             cout << endl;
-        } else {
+        } else if(j==k){
+			cout<<" "<<endl;
+		}else {
             cout << " "; 
         }
     }
-	
+
 }
 
 int exercise_6(int n) {
