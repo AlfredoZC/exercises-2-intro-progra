@@ -207,8 +207,14 @@ void exercise_12() {
 }
 
 long exercise_13(int n, int k) {
-  // TODO: YOUR CODE HERE
-  return 0;
+
+    int result;
+    
+    for( int i = 1 ; i <= n; ++i){
+        result += pow(i , k);
+    }
+    cout<<result<<endl;
+    return result; 
 }
 
 string exercise_14(int n) {
