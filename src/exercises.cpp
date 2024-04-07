@@ -100,6 +100,7 @@ void exercise_5(int n, int k) {
 
 int exercise_6(int n) {
 
+    if( n > 0){
     string number = to_string(n);
 	  int suma = 0;
 	  
@@ -107,7 +108,11 @@ int exercise_6(int n) {
 	      char iterador = number [i];
 	      suma += (iterador - '0');
 	  } cout<<suma;
-  return suma;
+      return suma;
+
+    }else{
+      return 0;
+    }
 
 }
 
