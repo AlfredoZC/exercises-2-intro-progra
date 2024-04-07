@@ -126,17 +126,45 @@ void exercise_7(int n) {
 	        result += signo * (1.0 / i);
 	        signo *= -1;
 	      
-	    } cout <<result;
+	    } cout <<result<<endl;
 
     }else{
-      
+
       return ;
     }
 
 }
 
 void exercise_8(string s) {
-  // TODO: YOUR CODE HERE
+
+    string s2;
+    char iteracion; 
+    string palindromo; 
+    if (s == " "){
+        cout<<"YES"<<endl;
+        
+    }else{
+        
+        for ( int i = 0; i < s.size(); ++i ){
+            iteracion = s[i];
+            if (iteracion == ' '){
+                continue;
+            }else {
+                s2 += s[i];
+            }
+        }
+    
+    for (int j = s2.size() - 1; j >= 0 ; --j ){
+        palindromo += s2[j];
+        }
+        
+        if (palindromo == s2){
+            cout<<"YES"<<endl;
+        }else{
+            cout<<"NO"<<endl;
+        }
+    }
+    
 }
 
 void exercise_9(string s) {
