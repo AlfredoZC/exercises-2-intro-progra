@@ -237,8 +237,22 @@ string exercise_14(int n) {
 }
 
 void exercise_15(int decimal) {
-  // TODO: YOUR CODE HERE
-}
+
+	int result;
+	string str;
+  string reverse; //este revierte a la string str que por el bucle while nos habia soltado 0101, entonces necesitabamos revertirla 
+	    
+	 while  (decimal > 0){
+	   result =decimal % 2;
+	   decimal /=2;
+	   str += to_string(result);
+	 }
+	 for (int i = str.size()-1; i >= 0 ; --i){
+	       reverse += str[i];
+	    }
+	    cout<<reverse<<endl;
+	    
+	}
 
 void exercise_16(int divident, int divider) {
   // TODO: YOUR CODE HERE
