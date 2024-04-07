@@ -99,8 +99,16 @@ void exercise_5(int n, int k) {
 }
 
 int exercise_6(int n) {
-  // TODO: YOUR CODE HERE
+
+    string number = to_string(n);
+	  int suma = 0;
+	  
+	  for(int i = 0; i < number.size(); ++i){
+	      char iterador = number [i];
+	      suma += (iterador - '0');
+	  } cout<<suma;
   return 0;
+  
 }
 
 void exercise_7(int n) {
