@@ -75,7 +75,7 @@ void exercise_4(int n) {
 }
 
 void exercise_5(int n, int k) {
-	
+
       for( int i = 1 ; i<n; ++i){
         
 		 cout<<"   ";
@@ -88,7 +88,7 @@ void exercise_5(int n, int k) {
 		    
 		    int salto = (j + n -1) % 7;
 		    
-		    if (salto == 0){
+		    if (salto == 0 || j == k){
 		        
 		    cout<<endl;
 		  }
