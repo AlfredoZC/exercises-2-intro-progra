@@ -13,8 +13,17 @@ void exercise_1(string s1) {
     } cout << s1.size()<<endl;
 }
 
-void exercise_2(string s1) {
-
+void exercise_2(string s1) { 
+    string s2;
+    for (int i = 0 ; i < s1.size(); ++i){
+        char spaces = s1[i];
+        if ( spaces == ' '){
+            s2 += "][";
+        }else {
+            s2 += s1[i];
+        } 
+    }  
+    cout<<"["<<s2<<"]"<<endl;
 }
 
 void exercise_3(string s1) {
