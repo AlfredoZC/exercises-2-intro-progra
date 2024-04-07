@@ -107,8 +107,8 @@ int exercise_6(int n) {
 	      char iterador = number [i];
 	      suma += (iterador - '0');
 	  } cout<<suma;
-  return 0;
-  
+  return suma;
+
 }
 
 void exercise_7(int n) {
