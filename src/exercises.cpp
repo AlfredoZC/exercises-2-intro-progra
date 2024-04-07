@@ -19,22 +19,34 @@ void exercise_2(string s1) {
 
 void exercise_3(string s1) {
 
-	  char iteracion;
-	  int i = 0; 
+	string s2; // aqui guardamos la string sin espacios 
+  char spaces; // Usamos char para quitar los espacios de la primera string;
+
+	char iteracion; 
+	int i = 0; 
 	  
-    	   while (i < s1.size()) {
+	  for(int j = 0; j<s1.size(); ++j){
+	      char spaces = s1[j];
+	      if ( spaces == ' '){
+	          continue; 
+	          
+	      }else {
+	          s2 += spaces;
+	      }
+	  }
+        while (i < s2.size()) {
     	       
-    	       if (i < 10 ){
-    	            char iteracion = s1[i];
-    	            if(iteracion == '1'){
-    	            cout<<"Om-nom-nom :P"<<endl;
-    	            }else if (iteracion == '0'){
-    	                cout<<"No cake :("<<endl;
-    	                break;
-    	            }else {
-    	                cout<<"Ingreso valores no validos, solo ingrese 1 o 0"<<endl;
-    	                break;
-	                } 
+    	   if (i < 10 ){
+    	       char iteracion = s2[i];
+    	       if(iteracion == '1'){
+    	       cout<<"Om-nom-nom :P"<<endl;
+    	       }else if (iteracion == '0'){
+    	           cout<<"No cake :("<<endl;
+    	            break;
+    	       }else {
+    	            cout<<"Ingreso valores no validos, solo ingrese 1 o 0"<<endl;
+    	            break;
+	           } 
 	            
     	    } else {
     	        break;
