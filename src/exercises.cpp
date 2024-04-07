@@ -68,10 +68,10 @@ void exercise_4(int n) {
 		  cout<<"El numero es negativo. Intentelo de nuevo"<<endl;
 		  return;
   } else {
-	    cout<<"El numero es muy grande. Intentelo de nuevo";
+	    cout<<"El numero es muy grande. Intentelo de nuevo"<<endl;
 		  return;
 		}
-    
+
 }
 
 void exercise_5(int n, int k) {
