@@ -249,9 +249,11 @@ __Ejemplo__
 
 ### Ejercicio 11
 Escriba un programa que calcule los primeros 10 términos de la secuencia Un tal que:
+
 $$
 U_0 = 1; U_{n+1} = \frac{U_n}{n + 1}
 $$
+
 __Salida__
 ```
 U0 = 1
@@ -268,9 +270,11 @@ U10 = 2.75573e-07
 ```
 ### Ejercicio 12
 Modifique el programa de arriba para que calcule simultáneamente la secuencia Un y la serie Vn, donde
+
 $$
 V_n = \sum_{i=0}^n{U_i}
 $$
+
 Verifique que Vm converga a e = exp(1) = 2.71828
 __Salida__
 ```
@@ -341,25 +345,29 @@ Como otro ejemplo, si comenzamos desde 1, obtenemos directamente 0, y el número
 Ahora, se te pide que escribas un programa que, para cada entero entre dos enteros solicitados al usuario, imprima el número de iteraciones requeridas para obtener 0 a partir de él.
 
 Por ejemplo, si el usuario solicita ver los resultados entre 1 y 7, el programa mostrará:
-
+```
 1 -> 1 
-2 -> 2
-3 -> 12
+2 -> 2 
+3 -> 12 
 4 -> 3
 5 -> 4
 6 -> 10
 7 -> 11
-
+```
 En el ejemplo anterior, 1 y 7 (en la primera columna) son los límites proporcionados como entrada por el usuario. La segunda columna muestra el número de repeticiones para llegar a 0 con el juego descrito anteriormente, comenzando con el número en la primera columna; por ejemplo, 11 repeticiones comenzando desde 7. Como otro ejemplo, si el usuario solicita enteros entre 99 y 100, el programa mostrará:
-
+```
 99 -> 18
 100 -> 17
-
+```
 Considere que el valor inicial no puede ser negativo. En este caso mostrar el mensaje:
 ```
 El numero debe de ser positivo y mayor a zero
 ```
 Ademas, el valor final no debe ser menor al valor inicial.
+```
+El numero de fin no debe de ser menor al inicial
+```
+
 ```
 El numero de fin no debe de ser menor al inicial
 ```
