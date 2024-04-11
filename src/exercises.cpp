@@ -28,7 +28,7 @@ void exercise_2(string s1) {
             cout<<k;
         }
     }
-    cout<<"]"; 
+    cout<<"]"<<endl; 
 }
 
 void exercise_3(string s1) {
