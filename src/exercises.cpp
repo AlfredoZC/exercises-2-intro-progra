@@ -14,22 +14,27 @@ void exercise_1(string s1) {
 }
 
 void exercise_2(string s1) { 
-    string s2;
-    for (int i = 0 ; i < s1.size(); ++i){
-        char spaces = s1[i];
-        if ( spaces == ' '){
-            s2 += "][";
+
+    string s;
+    int size = s1.size();
+
+    cout<<"[";
+
+    for(int i = 0; i<size; ++i){
+        char k = s1[i];
+        if (k == ' '){
+            cout<<"]"<<endl<<"[";
         }else {
-            s2 += s1[i];
-        } 
-    }  
-    cout<<"["<<s2<<"]"<<endl;
+            cout<<k;
+        }
+    }
+    cout<<"]"; 
 }
 
 void exercise_3(string s1) {
 
-	string s2; // aqui guardamos la string sin espacios 
-  char spaces; // Usamos char para quitar los espacios de la primera string;
+    string s2; // aqui guardamos la string sin espacios 
+    char spaces; // Usamos char para quitar los espacios de la primera string;
 
 	char iteracion; 
 	int i = 0; 
