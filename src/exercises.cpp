@@ -17,18 +17,22 @@ void exercise_2(string s1) {
 
     string s;
     int size = s1.size();
-
-    cout<<"[";
-
-    for(int i = 0; i<size; ++i){
-        char k = s1[i];
-        if (k == ' '){
-            cout<<"]"<<endl<<"[";
-        }else {
-            cout<<k;
-        }
+    
+    if (s1 != ""){
+        cout<<"[";
+        for(int i = 0; i<size; ++i){
+        
+            char k = s1[i];
+            if (k == ' '){
+             cout<<"]"<<endl<<"[";
+            }else {
+                cout<<k;
+                
+            }
+        } cout<<"]"<<endl;
+    }else{ 
+        return;
     }
-    cout<<"]"<<endl; 
 }
 
 void exercise_3(string s1) {
