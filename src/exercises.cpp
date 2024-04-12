@@ -290,7 +290,21 @@ void exercise_15(int decimal) {
 }
 
 void exercise_16(int divident, int divider) {
-  // TODO: YOUR CODE HERE
+
+    int residuo = 0;
+    int cociente = 0;
+    
+    
+    while(divident >= divider){
+        
+        dividendo -= divisor;
+        
+        residuo = dividendo; 
+
+        cociente++;
+    }
+
+    cout<<cociente<<" "<<residuo<<endl;
 }
 
 void exercise_17(int n) {
