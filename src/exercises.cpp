@@ -238,7 +238,6 @@ void exercise_12() {
 double U1 = 1.0;
 double V0 = 1.0; 
 
-cout <<"U0 = "<<U1 << " V0 = "<<V0<<endl;
 cout <<"U1 = "<<U1 << " V1 = "<<V0<<endl;
 
 
