@@ -217,9 +217,10 @@ int exercise_10(int a, int b) {
 }
 
 void exercise_11() {
-    
+
 double U1 = 1.0;
 
+cout <<"U0 = "<<U1<<endl;
 cout <<"U1 = "<<U1<<endl;
 
 
