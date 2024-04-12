@@ -217,7 +217,19 @@ int exercise_10(int a, int b) {
 }
 
 void exercise_11() {
-  // TODO: YOUR CODE HERE
+    
+double U1 = 1.0;
+
+cout <<"U1 = "<<U1<<endl;
+
+
+for(int i = 2; i<=10; ++i){
+    
+    U1 /= i;
+  
+    cout<<"U"<<i<<" = "<<U1<<endl;
+    
+    }
 }
 
 void exercise_12() {
