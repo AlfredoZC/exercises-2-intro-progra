@@ -294,13 +294,13 @@ void exercise_16(int divident, int divider) {
     int residuo = 0;
     int cociente = 0;
     
-    if(divisor != 0){
+    if(divider != 0){
         
-        while(dividendo >= divisor){
+        while(divident >= divider){
         
-            dividendo -= divisor;
+            divident -= divider;
         
-            residuo = dividendo; 
+            residuo = divident; 
 
             cociente++;
         }
@@ -310,7 +310,7 @@ void exercise_16(int divident, int divider) {
     }else {
         return;
     }
-    
+
 }
 
 void exercise_17(int n) {
