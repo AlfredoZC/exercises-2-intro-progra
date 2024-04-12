@@ -297,9 +297,9 @@ void exercise_16(int divident, int divider) {
     
     while(divident >= divider){
         
-        dividendo -= divisor;
+        divident -= divider;
         
-        residuo = dividendo; 
+        residuo = divident; 
 
         cociente++;
     }
