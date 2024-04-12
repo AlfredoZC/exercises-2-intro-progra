@@ -234,7 +234,23 @@ for(int i = 2; i<=10; ++i){
 }
 
 void exercise_12() {
-  // TODO: YOUR CODE HERE
+
+double U1 = 1.0;
+double V0 = 1.0; 
+
+cout <<"U0 = "<<U1 << " V0 = "<<V0<<endl;
+cout <<"U1 = "<<U1 << " V1 = "<<V0<<endl;
+
+
+for(int i = 2; i<=10; ++i){
+    
+    U1 /= i;
+    V0 = U1 + 1;
+  
+    cout<<"U"<<i<<" = "<<U1<<" "<<"V"<<i<<" = "<<V0<<endl;
+    
+    }
+    
 }
 
 long exercise_13(int n, int k) {
