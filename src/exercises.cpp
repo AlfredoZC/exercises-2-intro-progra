@@ -294,17 +294,23 @@ void exercise_16(int divident, int divider) {
     int residuo = 0;
     int cociente = 0;
     
+    if(divisor != 0){
+        
+        while(dividendo >= divisor){
+        
+            dividendo -= divisor;
+        
+            residuo = dividendo; 
+
+            cociente++;
+        }
+        
+        cout<<cociente<<" "<<residuo<<endl;
     
-    while(divident >= divider){
-        
-        divident -= divider;
-        
-        residuo = divident; 
-
-        cociente++;
+    }else {
+        return;
     }
-
-    cout<<cociente<<" "<<residuo<<endl;
+    
 }
 
 void exercise_17(int n) {
