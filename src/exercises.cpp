@@ -297,22 +297,22 @@ void exercise_16(int divident, int divider) {
     
     if(divisor != 0){
         
-        if(dividendo < divisor){
+        if(divident < divider){
             
             cociente = 0;
-            residuo = dividendo;
+            residuo = divident;
             
-            cout<<cociente<<" "<<dividendo<<endl;
+            cout<<cociente<<" "<<divident<<endl;
             
 
             
         }else {
         
-        while(dividendo >= divisor){
+        while(divident >= divider){
         
-            dividendo -= divisor;
+            divident -= divider;
         
-            residuo = dividendo; 
+            residuo = divident; 
 
             cociente++;
         }
