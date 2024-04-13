@@ -363,7 +363,7 @@ void exercise_17(int n) {
         }
         ++numero;
     }
-    cout << ;
+    cout;
 }
     
 
