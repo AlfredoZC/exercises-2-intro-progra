@@ -342,8 +342,31 @@ void exercise_16(int divident, int divider) {
 }
 
 void exercise_17(int n) {
-  // TODO: YOUR CODE HERE
+
+    if (n <= 0) {
+        return;
+    }
+
+    int contador = 0;
+    int numero = 2;
+    while (contador < n) {
+        bool esPrimo = true;
+        for (int i = 2; i <= sqrt(numero); ++i) {
+            if (numero % i == 0) {
+                esPrimo = false;
+                break;
+            }
+        }
+        if (esPrimo) {
+            cout << numero << " ";
+            ++contador;
+        }
+        ++numero;
+    }
+    cout << endl;
 }
+    
+
 
 void exercise_18_19(int debut, int fin) {
 
